@@ -5,8 +5,8 @@
     "version": "v1.0.0",
     "data_pack": {
         "load": ["./src"],
-        "pack_format": 61,
-        "supported_formats": { "min_inclusive": 57, "max_inclusive": 61 },
+        "pack_format": 71,
+        "supported_formats": { "min_inclusive": 57, "max_inclusive": 71 },
         "overlays": [
             {
                 "directory": "1_21_overlay",
