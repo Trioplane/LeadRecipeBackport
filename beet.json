@@ -1,0 +1,22 @@
+{
+    "author": "Trplnr",
+    "name": "LeadRecipeBackport",
+    "description": "Backports the new lead recipe from Minecraft 1.21.6",
+    "version": "v1.0.0",
+    "data_pack": {
+        "load": ["./src"],
+        "pack_format": 61,
+        "supported_formats": { "min_inclusive": 57, "max_inclusive": 61 },
+        "overlays": [
+            {
+                "directory": "1_21_overlay",
+                "formats": { "min_inclusive": 41, "max_inclusive": 48 }
+            },
+            {
+                "directory": "1_15_to_1_20_overlay",
+                "formats": { "min_inclusive": 5, "max_inclusive": 26 }
+            }
+        ]
+    },
+    "output": "./build"
+}
